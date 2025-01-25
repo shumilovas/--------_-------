@@ -601,7 +601,7 @@
 					<Properties External="false" Constant="false" Array="false">
 						<Formula><![CDATA[(ПрофитОбещанный*ПрофитПолучаемыйНаДеле)/(терпениеЖенщиныПриОжиданииПрофита)]]></Formula>
 						<Value><![CDATA[0]]></Value>
-						<Color/>
+						<Color>-256</Color>
 					</Properties>
 
 				</Variable>
@@ -617,7 +617,7 @@
 					<Properties External="false" Constant="false" Array="false">
 						<Formula><![CDATA[10*УмениеВрать/(БотанскаяЛогика*РесурсностьСреды) ]]></Formula>
 						<Value><![CDATA[0]]></Value>
-						<Color/>
+						<Color>-256</Color>
 					</Properties>
 
 				</Variable>
@@ -632,7 +632,7 @@
 					<Properties External="false" Constant="false" Array="false">
 						<Formula><![CDATA[БотанскаяЛогика*РесурсностьСреды]]></Formula>
 						<Value><![CDATA[0]]></Value>
-						<Color/>
+						<Color>-256</Color>
 					</Properties>
 
 				</Variable>
@@ -647,7 +647,7 @@
 					<Properties External="false" Constant="false" Array="false">
 						<Formula><![CDATA[5]]></Formula>
 						<Value><![CDATA[0]]></Value>
-						<Color/>
+						<Color>-256</Color>
 					</Properties>
 
 				</Variable>
@@ -1125,6 +1125,9 @@
 						<Type><![CDATA[double]]></Type>
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[1]]></Code>
+						</DefaultValue>
 						<ParameterEditor>
 							<Id>1737732738865</Id>
 							<EditorContolType>TEXT_BOX</EditorContolType>
@@ -1146,6 +1149,9 @@
 						<Type><![CDATA[double]]></Type>
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[7]]></Code>
+						</DefaultValue>
 						<ParameterEditor>
 							<Id>1737732805066</Id>
 							<EditorContolType>TEXT_BOX</EditorContolType>
@@ -1624,7 +1630,7 @@
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<Color/>
+					<Color>-256</Color>
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
@@ -1639,7 +1645,7 @@
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<Color/>
+					<Color>-256</Color>
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
@@ -1654,7 +1660,7 @@
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
-					<Color/>
+					<Color>-256</Color>
 					<LineWidth>1</LineWidth>
 					<Delay>false</Delay>
 				</Link>
